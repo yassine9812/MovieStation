@@ -52,7 +52,7 @@ export function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }
 
   useEffect(
     function () {
-      //1st return of title is undifined and 2nd is titile
+      //1 st return of title is undifined and 2nd is titile
       if (!title) return;
       document.title = `Movie | ${title}`;
 
