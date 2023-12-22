@@ -39,8 +39,6 @@ export function MovieDetails({
     Genre: genre,
   } = movie;
 
-  // const [avgRating, setAvgRating] = useState(0);
-
   function handleAdd() {
     const newWatchedMovie = {
       imdbID: selectedId,
@@ -109,8 +107,6 @@ export function MovieDetails({
               </p>
             </div>
           </header>
-
-          {/* <p>{avgRating} </p> */}
 
           <section>
             <div className="rating">
